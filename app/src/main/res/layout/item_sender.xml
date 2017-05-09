@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_item"
+    android:layout_margin="@dimen/margin_top"
+    android:padding="@dimen/padding"
+    android:background="@drawable/custom_backgroud_list"
+    android:gravity="center">
+
+    <TextView
+        android:paddingLeft="@dimen/padding_left"
+        android:id="@+id/tv_name_sender"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/btn_remove"
+        android:gravity="center"
+        android:maxLines="2"
+        android:textColor="@color/text_normal"
+        android:textSize="@dimen/size_text_h3" />
+
+    <Button
+        android:id="@+id/btn_remove"
+        android:layout_width="wrap_content"
+        android:padding="0dp"
+        android:layout_height="@dimen/size_item"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/custom_btn_delete"
+        android:text="@string/key_delete"
+        android:textSize="11dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        />
+</RelativeLayout>

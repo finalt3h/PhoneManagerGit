@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/edt_pass_verification"
+        android:layout_width="@dimen/width_edt"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edt_common"
+
+        android:inputType="textNoSuggestions|text|textPassword"
+        android:padding="@dimen/padding"
+        android:textColor="@color/text_normal"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="@dimen/size_text_h3" />
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="margin_left">10dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="padding_top">10dp</dimen>
+    <dimen name="padding_left">10dp</dimen>
+    <dimen name="padding">5dp</dimen>
+    <dimen name="size_text_h1">18sp</dimen>
+    <dimen name="size_text_h2">16sp</dimen>
+    <dimen name="border_button_dialog">10dp</dimen>
+    <dimen name="height_btn_close">35dp</dimen>
+    <dimen name="size_tv_header">18sp</dimen>
+    <dimen name="size_text_h3">14sp</dimen>
+    <dimen name="size_text_h4">12sp</dimen>
+    <dimen name="width_edt">200dp</dimen>
+    <dimen name="height_edt">50dp</dimen>
+    <dimen name="width_btn">200dp</dimen>
+    <dimen name="height_btn">50dp</dimen>
+    <dimen name="border_btn">4dp</dimen>
+    <dimen name="size_item">40dp</dimen>
+    <dimen name="width_dialog_verifi">270dp</dimen>
+    <dimen name="height_dialog_verifi">270dp</dimen>
+    <dimen name="height_circle_pager">8dp</dimen>
+    <dimen name="margin_dialog_verification">17dp</dimen>
+    <dimen name="margin_top_dialog_verification">14dp</dimen>
+    <dimen name="height_btn_provider_search">28dp</dimen>
+    <dimen name="border_button">2dp</dimen>
+    <dimen name="size_message_verify">10sp</dimen>
+</resources>

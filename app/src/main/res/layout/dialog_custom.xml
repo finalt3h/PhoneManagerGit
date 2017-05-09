@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_bg_dialog"
+    android:minWidth="300dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_btn_close"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="RTN"
+            android:textAllCaps="false"
+            android:textColor="@color/colorGreenBackground"
+            android:textSize="@dimen/size_tv_header"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:background="@color/colorGreySeparator" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlt_main_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_top"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="dasdasdasd asd asdas dá dá dá d asd á dá d asd á d asd á da sd asd á dá"
+            android:textAllCaps="false"
+            android:textColor="@color/colorGreyText1"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <EditText
+
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:id="@+id/edt_name_sender"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/padding_left"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:hint="Number sender" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGreySeparator" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="2"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_two_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/btn_left_of_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_button_dialog_left"
+                android:text="Left"
+                android:textAllCaps="false"
+                android:textColor="@color/color_text_button_dialog"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorGreySeparator" />
+
+            <Button
+                android:id="@+id/btn_right_confirm"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_button_dialog_right"
+                android:text="Right"
+                android:textAllCaps="false"
+                android:textColor="@color/color_text_button_dialog"
+                android:textSize="15sp"
+
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/border_button"
+            android:text="@string/key_ok"
+            android:textAllCaps="false"
+            android:textColor="@color/color_text_button_dialog"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

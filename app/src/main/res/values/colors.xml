@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3F51B5</color>
+
+    <color name="backgound">#cccccc</color>
+    <color name="backgound_not_press">#80cccccc</color>
+    <color name="backgound_list">#934234</color>
+    <color name="backgound_btn">#80cccccc</color>
+    <color name="text_normal">#000000</color>
+    <color name="underline_edt">#000000</color>
+    <color name="title_text">#000000</color>
+    <color name="change_pass">#330066</color>
+    <color name="btn_save_press">#99FF99</color>
+    <color name="btn_save_not_press">#8099FF99</color>
+    <color name="btn_delete_press">#70FF0000</color>
+    <color name="colorRedBackground">#FF4F4F</color>
+    <color name="colorError">#BB0000</color>
+    <color name="colorWarning">#FF6600</color>
+    <color name="colorGreenBackground">#00B39F</color>
+    <color name="btn_delete_not_press">#FF0000</color>
+    <color name="white">#ffffff</color>
+    <color name="color_text_button_dialog">#0099CC</color>
+    <color name="colorGreySeparator">#D2D2D2</color>
+    <color name="colorGreyText1">#434343</color>
+    <color name="text_color_black">#434343</color>
+    <color name="text_color_black_disnabled">#656565</color>
+    <color name="colorGreenBorder">#71D5CB</color>
+    <color name="colorGreyStorck">#F5F5F5</color>
+</resources>

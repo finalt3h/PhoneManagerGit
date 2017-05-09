@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">CheckSMSBanking</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="key_title_login">Enter Password </string>
+    <string name="key_login_btn">Login</string>
+    <string name="key_api_txt">API : </string>
+    <string name="key_token_txt">Token : </string>
+    <string name="key_save">Save</string>
+    <string name="key_cancel">Cancel</string>
+    <string name="key_list_sender_txt">Senders : </string>
+    <string name="key_change_pass"><u>Change password</u></string>
+    <string name="key_delete">Remove</string>
+    <string name="key_ok">Ok</string>
+    <string name="key_confirm">Confirm</string>
+    <string name="key_close">Close</string>
+    <string name="key_notice_login_fail">Pass wrong. Re-enter .Please...! </string>
+    <string name="key_notice_login_success">The pass was successful changes</string>
+    <string name="key_notice_save_success">Have successfully saved</string>
+    <string name="key_no_pass">No password</string>
+    <string name="key_pass_error">Invalid password !</string>
+    <string name="key_pass_wrong">Password is wrong !</string>
+    <string name="key_pass_confirm_wrong">Password confirm is wrong</string>
+    <string name="key_pass_change_successfully">Password was successfully changed</string>
+
+
+</resources>

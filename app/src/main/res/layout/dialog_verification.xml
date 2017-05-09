@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/width_dialog_verifi"
+    android:layout_height="@dimen/height_dialog_verifi">
+
+    <RelativeLayout
+        android:id="@+id/rlt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_top_dialog_verification"
+        android:layout_marginTop="@dimen/margin_dialog_verification"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/title_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textColor="@color/colorGreenBackground"
+            android:textStyle="bold"
+            android:text="d"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:id="@+id/ll_circel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlt_title"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/pager_1"
+            android:layout_width="@dimen/height_circle_pager"
+            android:layout_height="@dimen/height_circle_pager"
+            android:layout_gravity="center"
+            android:enabled="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            tools:background="drawable/circle_select_true" />
+
+        <Button
+            android:id="@+id/pager_2"
+            android:layout_width="@dimen/height_circle_pager"
+            android:layout_height="@dimen/height_circle_pager"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/height_circle_pager"
+            android:layout_marginRight="@dimen/height_circle_pager"
+            android:enabled="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            tools:background="@drawable/circle_select_false" />
+
+        <Button
+            android:id="@+id/pager_3"
+            android:layout_width="@dimen/height_circle_pager"
+            android:layout_height="@dimen/height_circle_pager"
+            android:layout_gravity="center"
+            android:enabled="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            tools:background="@drawable/circle_select_false" />
+    </LinearLayout>
+
+    <com.fsoft.sonnm6.checksmsbanking.viewcustom.CustomViewPager
+        android:id="@+id/view_pager_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlt_footer"
+        android:layout_below="@+id/ll_circel"
+        android:layout_marginLeft="@dimen/margin_dialog_verification"
+        android:layout_marginRight="@dimen/margin_dialog_verification"
+        android:layout_marginTop="@dimen/margin_dialog_verification">
+
+    </com.fsoft.sonnm6.checksmsbanking.viewcustom.CustomViewPager>
+
+    <LinearLayout
+        android:id="@+id/rlt_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/margin_dialog_verification"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:id="@+id/ll_2_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_message"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_left_verification"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_btn_provider_search"
+                android:layout_marginRight="@dimen/margin_dialog_verification"
+                android:layout_weight="1"
+                android:background="@drawable/btn_border_stock_green_bg"
+                android:clickable="true"
+
+                android:text="@string/key_cancel"
+                android:textAllCaps="false"
+                android:textColor="@color/colorGreenBackground"
+                android:textSize="13sp" />
+
+            <Button
+
+                android:id="@+id/btn_right_verification"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_btn_provider_search"
+                android:layout_weight="1"
+                android:background="@drawable/custom_btn_unfollow"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_message_verification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_dialog_verification"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/colorRedBackground"
+            android:textSize="@dimen/size_message_verify"
+
+
+            />
+    </LinearLayout>
+</RelativeLayout>
